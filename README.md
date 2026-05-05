@@ -61,9 +61,12 @@ An interactive dashboard was built to visualize key business insights:
 ---
 
 ## Dashboard Preview
-screen/overview.png
-screen/revenue & products.png
-screen/customers.png
+### Overview
+![Overview](screen/overview.png)
+### Revenue & Products
+![Revenue & Products](screen/revenue%20%26%20products.png)
+### Customers
+![Customers](screen/customers.png)
 
 
 ---
