@@ -1,19 +1,36 @@
-# Olist E-Commerce Data Analysis Project
+# Olist E-Commerce Analytics & Data Engineering Pipeline
 
 ## Project Overview
-This project performs an end-to-end data analysis on the Olist Brazilian E-commerce dataset.  
-The goal is to explore customer behavior, sales performance, delivery efficiency, and payment patterns to generate actionable business insights.
-
-The analysis is done using **SQL for data exploration**, **Python for data cleaning and analysis**, and **Power BI for visualization and storytelling**.
+This project delivers an end-to-end analytics and data engineering solution built on the Olist Brazilian E-Commerce dataset. The project combines data analysis, ELT pipeline development, dimensional modeling, workflow orchestration, and business intelligence reporting to generate actionable operational and sales insights. The solution simulates a modern analytics workflow used in real-world business environments by integrating SQL, Python, dbt, Apache Airflow, and Power BI.
 
 ---
+# Business Objectives 
 
-## Tools & Technologies
-- SQL (Data Exploration & Transformation)
-- Python (Pandas, Data Cleaning, Exploratory Data Analysis)
-- Power BI (Interactive Dashboard & Visualization)
+- Analyze customer purchasing behavior
+- Evaluate sales and revenue performance
+- Monitor logistics and delivery efficiency
+- Explore payment and installment patterns
+- Identify operational bottlenecks
+- Support data-driven business decisions
 
 ---
+## Data Engineering 
+- Apache Airflow -
+- dbt -
+- SQL
+## Data Analytics - 
+- Python (Pandas, EDA, Data Cleaning) -
+- Power BI
+## Databases & Development - 
+- SQL Server / DuckDB -
+- Git & GitHub -
+- Jupyter Notebook -
+- VS Code
+
+---
+# Data Engineering Architecture
+
+The project follows a layered ELT architecture inspired by modern analytics engineering practices. ## Pipeline Workflow 1. Raw data ingestion 2. Data cleaning and validation 3. Staging transformations using dbt 4. Intermediate business transformations 5. Mart layer generation 6. Workflow orchestration using Airflow 7. Power BI reporting and visualization
 
 ## Dataset Description
 The dataset represents a full e-commerce system and includes:
@@ -68,6 +85,24 @@ An interactive dashboard was built to visualize key business insights:
 ### Customers
 ![Customers](screen/customers.png)
 
+
+---
+
+# Airflow Workflow The Airflow pipeline automates: - 
+- Data ingestion -
+- Data transformation workflows -
+- Dependency management -
+- Scheduled pipeline execution
+## Airflow DAG 
+![Airflow DAG](screen/dag.png)
+
+---
+
+# dbt Transformation Workflow dbt was used to: - 
+- Build modular SQL transformations -
+- Implement staging, intermediate, and mart layers -
+- Improve model maintainability -
+- Create analytics-ready datasets
 
 ---
 
